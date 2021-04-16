@@ -1,19 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bcb76852-0f48-4286-a2eb-3b76e72c6eb2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/Baby.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Baby/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Baby/asgi.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Baby/settings.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Baby/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Baby/wsgi.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/manage.py" afterDir="false" />
+    <list default="true" id="bcb76852-0f48-4286-a2eb-3b76e72c6eb2" name="Default Changelist" comment="add project">
+      <change afterPath="$PROJECT_DIR$/children/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/children/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/children/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/children/migrations/0001_initial.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/children/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/children/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/children/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/children/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/children/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/background/photo_2020-12-02_14-22-21_2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Baby/asgi.py" beforeDir="false" afterPath="$PROJECT_DIR$/Baby/asgi.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Baby/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/Baby/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Baby/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/Baby/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Baby/wsgi.py" beforeDir="false" afterPath="$PROJECT_DIR$/Baby/wsgi.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/manage.py" beforeDir="false" afterPath="$PROJECT_DIR$/manage.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,6 +27,14 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="ProjectId" id="1r4dE9HaAy0hgt1qFfziQX7ZEpg" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -48,6 +61,14 @@
       <option name="presentableId" value="Default" />
       <updated>1618239181883</updated>
     </task>
+    <task id="LOCAL-00001" summary="add project">
+      <created>1618240205550</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1618240205550</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -60,5 +81,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="add project" />
+    <option name="LAST_COMMIT_MESSAGE" value="add project" />
   </component>
 </project>
