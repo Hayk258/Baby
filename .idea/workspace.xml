@@ -2,23 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bcb76852-0f48-4286-a2eb-3b76e72c6eb2" name="Default Changelist" comment="add project">
-      <change afterPath="$PROJECT_DIR$/children/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/children/admin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/children/apps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/children/migrations/0001_initial.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/children/migrations/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/children/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/children/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/children/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/children/views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/background/photo_2020-12-02_14-22-21_2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Baby/asgi.py" beforeDir="false" afterPath="$PROJECT_DIR$/Baby/asgi.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Baby/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/Baby/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Baby/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/Baby/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Baby/wsgi.py" beforeDir="false" afterPath="$PROJECT_DIR$/Baby/wsgi.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/manage.py" beforeDir="false" afterPath="$PROJECT_DIR$/manage.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/children/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/children/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/children/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/children/models.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,6 +68,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add project" />
