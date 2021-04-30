@@ -1,5 +1,5 @@
 from django.contrib import admin
-from .models import InfoSite, Category , Person
+from .models import InfoSite, Category, Person
 from django.utils.safestring import mark_safe
 
 
@@ -16,7 +16,6 @@ class InfoSiteAdmin(admin.ModelAdmin):
         ('User name', {
             'fields': ('name',)
         }),
-
         ('Instagram and Facebook', {
             'fields': ('instagram_link', 'facebook_link',)
         }),
@@ -65,4 +64,42 @@ class CategoryAdmin(admin.ModelAdmin):
     get_image.short_description = 'Photo'
 
 
-admin.site.register(Person)
+@admin.register(Person)
+class PersonAdmin(admin.ModelAdmin):
+
+    list_display = ('id', 'first_name', 'last_name', 'email', 'category_title', 'status', 'get_image')
+    list_display_links = ('id', 'first_name')
+    save_on_top = True
+    list_editable = ('status',)
+    search_fields = ('first_name', 'email', 'phone_number', 'address')
+    readonly_fields = ('get_image',)
+    list_filter = ('status', 'date', 'category_title', 'disease', 'city')
+    fieldsets = (
+        ('Category', {
+            'fields': ('category_title',)
+        }),
+        ('Person name', {
+            'fields': ('first_name', 'last_name', 'middle_name')
+        }),
+        ('Person info', {
+            'fields': (('address', 'date_of_birth'), ('email', 'phone_number'),)
+        }),
+        ('Person photo and price', {
+            'fields': (('price', 'photo', 'get_image'),)
+        }),
+        ('Person disease and about', {
+            'fields': ('disease', 'about',)
+        }),
+        ('Url and status', {
+            'fields': (('url', 'status'),)
+        }),
+    )
+
+    def get_image(self, obj):
+        return mark_safe(f'<img src={obj.photo.url} width="90" height="70"')
+
+    get_image.short_description = 'Photo'
+
+
+admin.site.site_title = 'Hayk Admin'
+admin.site.site_header = 'Hayk Admin'
