@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bcb76852-0f48-4286-a2eb-3b76e72c6eb2" name="Default Changelist" comment="Add in models Person and Category and change timezone">
-      <change afterPath="$PROJECT_DIR$/children/migrations/0005_auto_20210430_1934.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/children.Person.category_title/photo_2020-12-02_14-22-21.jpg" afterDir="false" />
+    <list default="true" id="bcb76852-0f48-4286-a2eb-3b76e72c6eb2" name="Default Changelist" comment="Add in admin Person configuration">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Baby/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/Baby/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Baby/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/Baby/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/children/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/children/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/children/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/children/models.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,7 +62,14 @@
       <option name="project" value="LOCAL" />
       <updated>1619352472859</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Add in admin Person configuration">
+      <created>1619795328188</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1619795328188</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -81,7 +87,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add project" />
     <MESSAGE value="Add in models Person and Category and change timezone" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add in models Person and Category and change timezone" />
+    <MESSAGE value="Add in admin Person configuration" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add in admin Person configuration" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

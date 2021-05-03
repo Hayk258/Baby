@@ -1,6 +1,25 @@
 from django.contrib import admin
 from .models import InfoSite, Category, Person
 from django.utils.safestring import mark_safe
+from django import forms
+from ckeditor_uploader.widgets import CKEditorUploadingWidget
+
+
+class PersonAdminForm(forms.ModelForm):
+    about = forms.CharField(widget=CKEditorUploadingWidget())
+    disease = forms.CharField(widget=CKEditorUploadingWidget())
+
+    class Meta:
+        model = Person
+        fields = '__all__'
+
+
+class CategoryAdminForm(forms.ModelForm):
+    about = forms.CharField(widget=CKEditorUploadingWidget())
+
+    class Meta:
+        model = Category
+        fields = '__all__'
 
 
 @admin.register(InfoSite)
@@ -43,6 +62,7 @@ class CategoryAdmin(admin.ModelAdmin):
     save_on_top = True
     search_fields = ('title',)
     prepopulated_fields = {'url': ('title',)}
+    form = CategoryAdminForm
     fieldsets = (
         ('Category name and url', {
             'fields': ('title', 'url')
@@ -74,6 +94,7 @@ class PersonAdmin(admin.ModelAdmin):
     search_fields = ('first_name', 'email', 'phone_number', 'address')
     readonly_fields = ('get_image',)
     list_filter = ('status', 'date', 'category_title', 'disease', 'city')
+    form = PersonAdminForm
     fieldsets = (
         ('Category', {
             'fields': ('category_title',)
